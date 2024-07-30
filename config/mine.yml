@@ -1,0 +1,56 @@
+name: Mine # Mine_dim2500_seed124_pretrain_exp_45
+command: Train # Test
+gpus: [0,1]
+fixdim: 2500
+batchSize: 2
+decayType: cos # step, linear, exp cos
+#dataDir: /raid/qiaominglang/brain/ #hyy3
+# dataDir: /home/zeiler/WSI_proj/data/ #Adden_linux1
+#dataDir: /home/cbtil2/WSI_proj/data/ #Adden_linux2
+# dataDir: /home/cbtil3/WSI_proj/data/ #Adden_linux3
+# dataDir: /home/cbtil/ST_proj/LDH/data/
+dataDir: /home/hanyu/
+
+#### Network setting main
+Network:
+
+  lr: 0.003
+  dropout_rate: 0.1
+  IDH_layers: 3
+  1p19q_layers: 2
+  CDKN_layers: 2
+  His_layers: 3
+  Grade_layers: 1
+  Trans_block: 'full' #'full' 'simple'
+  graph_alpha: 0.1
+  corre_loss_ratio: 0.1
+
+
+#### Training setting
+n_ep: 80
+decay_cos_warmup_steps: 25
+
+
+
+#### Directories
+logDir: ./writer/logs
+saveDir: ./writer/outs
+modelDir: ./writer/models
+cm_saveDir: ./writer/cm
+label_path: ./merge_who.xlsx
+TCGA_label_path: ./TCGA.xlsx
+IvYGAP_label_path: ./IvYGAP.xlsx
+CPTAC_label_path: ./CPTAC.xlsx
+#### Meta setting main
+dataset: TCGA
+nThreads: 16
+seed: 124
+imgSize: [224,224]
+eva_cm: False
+n_ep_save: 1
+fp16: False
+
+Val_batchSize: 1
+Test_batchSize: 1
+n_ep_decay: 15
+top_K_patch: 300

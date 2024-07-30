@@ -1,0 +1,49 @@
+name: CLAM # model
+gpus: [1]
+batchSize: 1
+Val_batchSize: 1
+Test_batchSize: 1
+#dataDir: /mnt/disk10T_2/fuyibing/wxf_data/TCGA/brain/ #ali8k_2
+dataDir: /mnt/disk10T/fuyibing/wxf_data/TCGA/brain/ #ali8k_3
+#dataDir: /mnt/disk10T/fyb/wxf_data/TCGA/brain/ #ali8k_1
+#dataDir: /mnt/disk10T/fuyibing/wxf_data/TCGA/brain/ #ali4k
+
+
+#### Network setting main
+Network:
+  BasicMIL: # instance level information integration with simply; majority voting or standard bag label definition
+    lr: 0.0003
+  AMIL:
+    lr: 0.0005
+  TransMIL:
+    lr: 0.0002
+  CLAM:
+    lr: 0.003
+  UACNN:
+    lr: 0.0003
+  PatchGCN:
+    lr: 0.0002
+
+
+
+#### Training setting
+
+n_ep: 200
+n_ep_decay: 50
+decayType: exp # step, linear, exp,cos
+n_ep_save: 5
+resume_epoch: 0 # 100
+
+
+#### Directories
+logDir: ./logs
+saveDir: ./outs
+modelDir: ./models
+cm_saveDir: ./cm
+label_path: ./merge_who.xlsx
+
+#### Meta setting main
+dataset: TCGA
+nThreads: 16
+seed: 124
+imgSize: [224,224]

@@ -1,0 +1,49 @@
+name: CLAM_IDH_fea #  mna incep dense alex res
+gpus: [0]
+batchSize: 1
+fixdim: 2500
+dataDir: /home/zeiler/WSI_proj/data/ #Adden_linux1
+#dataDir: /home/cbtil2/WSI_proj/data/ #Adden_linux2
+
+#### Network setting main
+Network:
+  BasicMIL: # instance level information integration with simply; majority voting or standard bag label definition
+    lr: 0.001
+  AMIL:
+    lr: 0.0002
+  TransMIL:
+    lr: 0.0002
+  CLAM:
+    lr: 0.0001
+  UACNN:
+    lr: 0.0003
+  PatchGCN:
+    lr: 0.0002
+
+
+#### Training setting
+
+n_ep: 70
+decay_cos_warmup_steps: 35
+n_ep_decay: 15
+decayType: exp # step, linear, exp,cos
+n_ep_save: 5
+resume_epoch: 70 # 100
+eva_cm: False
+dataLabels: ['G2_O', 'G3_O', 'G2_A', 'G3_A', 'G4_A' ,'GBM'] #['G2_O', 'G3_O', 'G2_A', 'G3_A','G2_OA','G3_OA' 'GBM']
+
+#### Directories
+logDir: ./logs
+saveDir: ./outs
+modelDir: ./models
+cm_saveDir: ./cm
+label_path: ./merge_who.xlsx
+
+#### Meta setting main
+dataset: TCGA
+nThreads: 16
+seed: 124
+Val_batchSize: 1
+Test_batchSize: 1
+imgSize: [224,224]
+command: Train # Test
