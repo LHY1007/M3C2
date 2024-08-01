@@ -14,7 +14,7 @@ def setup_seed(seed):
 
 
 def train(opt):
-    opt['gpus'] = [0,1,2,3]
+    opt['gpus'] = [0,1,2,3,4,5,6,7]
     gpuID = opt['gpus']
     opt['batchSize'] = 6
     
@@ -48,13 +48,13 @@ def train(opt):
     ###############  Datasets #######################
 
     trainDataset = dataset_mine.Our_Dataset(phase='Train',opt=opt)
-    # valDataset = dataset_mine.Our_Dataset(phase='Val', opt=opt)
+    valDataset = dataset_mine.Our_Dataset(phase='Val', opt=opt)
     testDataset = dataset_mine.Our_Dataset(phase='Test',opt=opt)
     ItestDataset = dataset_mine.Our_Dataset(phase='ITest',opt=opt)
     trainLoader = DataLoader(trainDataset, batch_size=opt['batchSize'],
                              num_workers=opt['nThreads'] if (sysstr == "Linux") else 1, shuffle=True)
-    # valLoader = DataLoader(valDataset, batch_size=opt['Val_batchSize'],
-    #                           num_workers=opt['nThreads'] if (sysstr == "Linux") else 1, shuffle=False)
+    valLoader = DataLoader(valDataset, batch_size=opt['Val_batchSize'],
+                              num_workers=opt['nThreads'] if (sysstr == "Linux") else 1, shuffle=False)
     testLoader = DataLoader(testDataset, batch_size=opt['Test_batchSize'],
                             num_workers=opt['nThreads'] if (sysstr == "Linux") else 1, shuffle=False)
     ItestLoader = DataLoader(ItestDataset, batch_size=opt['Test_batchSize'],
@@ -64,38 +64,38 @@ def train(opt):
 
     last_ep = 0
     total_it = 0
-    root_init =r'/home/hanyu/LHY/miccai7.22/best_model/Best3_0720-0755-0003.pth'
-    ckptdir_init = os.path.join(root_init)
-    checkpoint_init = torch.load(ckptdir_init)
-    root_IDH =r'/home/hanyu/LHY/miccai7.22/best_model/Best3_0720-0755-0003.pth'
-    ckptdir_IDH = os.path.join(root_IDH)
-    checkpoint_IDH = torch.load(ckptdir_IDH)
-    root_1p19q =r'/home/hanyu/LHY/miccai7.22/best_model/Best3_0720-0755-0003.pth'
-    ckptdir_1p19q = os.path.join(root_1p19q)
-    checkpoint_1p19q = torch.load(ckptdir_1p19q)
-    root_CDKN =r'/home/hanyu/LHY/miccai7.22/best_model/Best3_0720-0755-0003.pth'
-    ckptdir_CDKN = os.path.join(root_CDKN)
-    checkpoint_CDKN = torch.load(ckptdir_CDKN)
-    root_Task =r'/home/hanyu/LHY/miccai7.22/best_model/Best3_0720-0755-0003.pth'
-    ckptdir_Task = os.path.join(root_Task)
-    checkpoint_Task = torch.load(ckptdir_Task)
+    # root_init =r'/home/hanyu/LHY/miccai7.22/best_model/Best3_0720-0755-0003.pth'
+    # ckptdir_init = os.path.join(root_init)
+    # checkpoint_init = torch.load(ckptdir_init)
+    # root_IDH =r'/home/hanyu/LHY/miccai7.22/best_model/Best3_0720-0755-0003.pth'
+    # ckptdir_IDH = os.path.join(root_IDH)
+    # checkpoint_IDH = torch.load(ckptdir_IDH)
+    # root_1p19q =r'/home/hanyu/LHY/miccai7.22/best_model/Best3_0720-0755-0003.pth'
+    # ckptdir_1p19q = os.path.join(root_1p19q)
+    # checkpoint_1p19q = torch.load(ckptdir_1p19q)
+    # root_CDKN =r'/home/hanyu/LHY/miccai7.22/best_model/Best3_0720-0755-0003.pth'
+    # ckptdir_CDKN = os.path.join(root_CDKN)
+    # checkpoint_CDKN = torch.load(ckptdir_CDKN)
+    # root_Task =r'/home/hanyu/LHY/miccai7.22/best_model/Best3_0720-0755-0003.pth'
+    # ckptdir_Task = os.path.join(root_Task)
+    # checkpoint_Task = torch.load(ckptdir_Task)
 
-    related_params = {k: v for k, v in checkpoint_init['init'].items()}
-    Mine_model_init.load_state_dict(related_params)
-    related_params = {k: v for k, v in checkpoint_IDH['IDH'].items()}
-    Mine_model_IDH.load_state_dict(related_params)
-    related_params = {k: v for k, v in checkpoint_1p19q['1p19q'].items()}
-    Mine_model_1p19q.load_state_dict(related_params)
-    related_params = {k: v for k, v in checkpoint_CDKN['CDKN'].items()}
-    Mine_model_CDKN.load_state_dict(related_params)
-    related_params = {k: v for k, v in checkpoint_IDH['Graph'].items()}
-    Mine_model_Graph.load_state_dict(related_params)
-    related_params = {k: v for k, v in checkpoint_IDH['His'].items()}
-    Mine_model_His.load_state_dict(related_params)
-    related_params = {k: v for k, v in checkpoint_IDH['Cls'].items()}
-    Mine_model_Cls.load_state_dict(related_params)
-    related_params = {k: v for k, v in checkpoint_Task['Task'].items()}
-    Mine_model_Task.load_state_dict(related_params)
+    # related_params = {k: v for k, v in checkpoint_init['init'].items()}
+    # Mine_model_init.load_state_dict(related_params)
+    # related_params = {k: v for k, v in checkpoint_IDH['IDH'].items()}
+    # Mine_model_IDH.load_state_dict(related_params)
+    # related_params = {k: v for k, v in checkpoint_1p19q['1p19q'].items()}
+    # Mine_model_1p19q.load_state_dict(related_params)
+    # related_params = {k: v for k, v in checkpoint_CDKN['CDKN'].items()}
+    # Mine_model_CDKN.load_state_dict(related_params)
+    # related_params = {k: v for k, v in checkpoint_IDH['Graph'].items()}
+    # Mine_model_Graph.load_state_dict(related_params)
+    # related_params = {k: v for k, v in checkpoint_IDH['His'].items()}
+    # Mine_model_His.load_state_dict(related_params)
+    # related_params = {k: v for k, v in checkpoint_IDH['Cls'].items()}
+    # Mine_model_Cls.load_state_dict(related_params)
+    # related_params = {k: v for k, v in checkpoint_Task['Task'].items()}
+    # Mine_model_Task.load_state_dict(related_params)
     saver = Saver(opt)
     print('%d epochs and %d iterations has been trained' % (last_ep, total_it))
     alleps = opt['n_ep'] - last_ep
