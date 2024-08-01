@@ -25,3 +25,8 @@ Use the below command to test the model on our database.
 ```
 https://www.kaggle.com/datasets/liuhanyu1007/m3c2-data
 ```
+
+## 4. Model
+```
+https://www.kaggle.com/models/liuhanyu1007/m3c2_model
+```
