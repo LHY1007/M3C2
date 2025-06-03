@@ -62,6 +62,38 @@
 
 ## About this code
 
+he M3C2 codebase is written in Python and focuses on integrating histology features and molecular markers for cancer classification. It uses various deep learning techniques for analyzing whole-slide images (WSIs) and predicting cancer types, particularly gliomas. The core module structure is as follows:
+
+```
+M3C2-main/
+├── CPTAC.xlsx                    # Dataset containing clinical and molecular data for cancer classification (CPTAC).
+├── IvYGAP.xlsx                    # Dataset containing data for glioma diagnosis and treatment (IvYGAP).
+├── TCGA.xlsx                      # Dataset from The Cancer Genome Atlas (TCGA) for glioma classification.
+├── merge_who.xlsx                 # Merged dataset based on the latest WHO glioma classification.
+├── README.md                      # Overview of the project, its purpose, and instructions for usage.
+├── data_process.py                # Script to process and clean datasets for model training.
+├── dataset.py                     # Defines the dataset structure and loading mechanism for WSIs.
+├── dataset_mine.py                # Alternative dataset processing script with additional feature extraction.
+├── feature_generation.py          # Generates features required for classification from raw data.
+├── model.py                       # Defines the neural network architecture used for cancer classification.
+├── net.py                         # Contains code for building the network layers of the model.
+├── evaluation.py                  # Script to evaluate the model’s performance on various tasks.
+├── post_processing.py             # Post-processing of model predictions such as filtering or formatting.
+├── main.py                        # Main script for running the model with specified parameters.
+├── main_noGrad_guide.py           # Variant of the main script with gradient updates disabled for specific tasks.
+├── main_miccai.py                 # Main script variant used for experiments aligned with MICCAI conference.
+├── main_noLCloss.py               # Variant without the label correlation loss for model training.
+├── model_copy.py                  # Another copy of the model code, likely with experimental variations.
+├── roc_plot.py                    # Script for plotting ROC curves to evaluate model performance.
+├── test_forroc.py                 # Testing script specifically for evaluating model performance via ROC.
+├── transform                      # Folder containing data transformation functions for WSIs.
+│   ├── augmentations.py           # Defines data augmentation methods (e.g., rotation, zoom).
+│   ├── normalize.py               # Script for normalizing the input data (WSIs).
+├── utils.py                       # Contains helper functions used throughout the project.
+├── utils_finetune.py              # Utility functions specifically for fine-tuning the model.
+├── logs.py                        # Handles logging of training and testing results.
+├── __pycache__                    # Folder containing Python bytecode files for faster execution.
+```
 
 ## How to apply the work
 ### 1. Environment
