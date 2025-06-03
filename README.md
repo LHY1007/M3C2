@@ -1,6 +1,26 @@
 # M3C2
 # Joint Modelling Histology and Molecular Markers for Glioma Classification
 
+<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
+                <img src="docs/static/hypo_icon.png" alt="Icon" style="width:40px; vertical-align:middle; margin-right:10px;">  Hypo3D: Exploring Hypothetical Reasoning in 3D</h1>      
+<p align='center' style="text-align:center;font-size:1.25em;">
+    <a href="https://yebulabula.github.io/" target="_blank" style="text-decoration: none;">Ye Mao</a>,&nbsp;
+    <a href="https://scholar.google.com/citations?user=2Y0-0C8AAAAJ&hl=en" target="_blank" style="text-decoration: none;">Weixun Luo</a>,&nbsp;
+    <a href="https://tomtomtommi.github.io/" target="_blank" style="text-decoration: none;">Junpeng Jing</a>,&nbsp;
+    <a href="https://anlanqiu.github.io/" target="_blank" style="text-decoration: none;">Anlan Qiu</a>,&nbsp;
+    <a href="https://www.imperial.ac.uk/people/k.mikolajczyk"  target="_blank" style="text-decoration: none;">Krystian Mikolajczyk</a>&nbsp;<br/>
+&nbsp;<strong>Imperial College London</strong><br/>
+
+<div align="center">
+  <a href="https://arxiv.org/abs/2502.00954" target="_blank" rel="external nofollow noopener">
+  <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv"></a>
+  <a href="https://matchlab-imperial.github.io/Hypo3D/" target="_blank" rel="external nofollow noopener">
+  <img src="https://img.shields.io/badge/Page-Hypo3D-9cf" alt="Project Page"></a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe--CkKIw_aXZpHHIv3OEt2psPsMdqKNkl1NRQN3vd92wHjvA/viewform" rel="external nofollow noopener" target="_blank">
+  <img src="https://img.shields.io/badge/Data-Hypo3D-blue" alt="Data"></a>
+</div>
+</p>
+
 ## About this code
 
 
