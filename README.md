@@ -4,18 +4,19 @@
               Joint Modelling Histology and Molecular Markers for Glioma Classification</h1>    
               
 <p align='center' style="text-align:center;font-size:1.25em;">
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Xiaofei Wang<span style="font-size: 0.75em; color: green;">a</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Hanyu Liu<span style="font-size: 0.75em; color: green;">b</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Yupei Zhang<span style="font-size: 0.75em; color: green;">a</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Boyang Zhao<span style="font-size: 0.75em; color: green;">b</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Hao Duan<span style="font-size: 0.75em; color: green;">c</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Yonggao Mou<span style="font-size: 0.75em; color: green;">c</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Stephen Price<span style="font-size: 0.75em; color: green;">a</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Chao Li<span style="font-size: 0.75em; color: green;">a,b,e,f</span></a>&nbsp;<br/>
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Xiaofei Wang<span style="font-size: 0.75em; color: green; vertical-align: super;">a</span></a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Hanyu Liu<span style="font-size: 0.75em; color: green; vertical-align: super;">b</span></a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Yupei Zhang<span style="font-size: 0.75em; color: green; vertical-align: super;">a</span></a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Boyang Zhao<span style="font-size: 0.75em; color: green; vertical-align: super;">b</span></a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Hao Duan<span style="font-size: 0.75em; color: green; vertical-align: super;">c</span></a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Yonggao Mou<span style="font-size: 0.75em; color: green; vertical-align: super;">c</span></a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Stephen Price<span style="font-size: 0.75em; color: green; vertical-align: super;">a</span></a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Chao Li<span style="font-size: 0.75em; color: green; vertical-align: super;">a,b,e,f</span></a>&nbsp;<br/>
 &nbsp;<strong>剑桥大学，英国</strong><br/>
 &nbsp;<strong>邓迪大学，英国</strong><br/>
 &nbsp;<strong>中山大学肿瘤中心，中国</strong><br/>
 </p>
+
 
 
 
