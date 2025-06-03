@@ -11,7 +11,7 @@
 &nbsp;<strong>Imperial College London</strong><br/>
 
 <div align="center">
-  <a href="https://arxiv.org/abs/2502.00954" target="_blank" rel="external nofollow noopener">
+  <a href="https://www.sciencedirect.com/science/article/pii/S1361841525000532" target="_blank" rel="external nofollow noopener">
   <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv"></a>
   <a href="https://matchlab-imperial.github.io/Hypo3D/" target="_blank" rel="external nofollow noopener">
   <img src="https://img.shields.io/badge/Page-Hypo3D-9cf" alt="Project Page"></a>
