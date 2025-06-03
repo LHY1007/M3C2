@@ -51,7 +51,7 @@ https://www.kaggle.com/models/liuhanyu1007/m3c2_model
 ```
 
 ## Contact
-- Ye Mao: ye.mao21@imperial.ac.uk
+- Hanyu Liu: 2485644@dundee.ac.uk
 
 Please open an issue or submit a pull request for issues, or contributions.
 
