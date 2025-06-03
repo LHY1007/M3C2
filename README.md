@@ -3,12 +3,19 @@
 <h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
               Joint Modelling Histology and Molecular Markers for Glioma Classification</h1>      
 <p align='center' style="text-align:center;font-size:1.25em;">
-    <a href="https://yebulabula.github.io/" target="_blank" style="text-decoration: none;">Ye Mao</a>,&nbsp;
-    <a href="https://scholar.google.com/citations?user=2Y0-0C8AAAAJ&hl=en" target="_blank" style="text-decoration: none;">Weixun Luo</a>,&nbsp;
-    <a href="https://tomtomtommi.github.io/" target="_blank" style="text-decoration: none;">Junpeng Jing</a>,&nbsp;
-    <a href="https://anlanqiu.github.io/" target="_blank" style="text-decoration: none;">Anlan Qiu</a>,&nbsp;
-    <a href="https://www.imperial.ac.uk/people/k.mikolajczyk"  target="_blank" style="text-decoration: none;">Krystian Mikolajczyk</a>&nbsp;<br/>
-&nbsp;<strong>Imperial College London</strong><br/>
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Xiaofei Wang</a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Hanyu Liu</a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Yupei Zhang</a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Boyang Zhao</a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Hao Duan</a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Yonggao Mou</a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Stephen Price</a>,&nbsp;
+    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Chao Li</a>&nbsp;<br/>
+&nbsp;<strong>University of Cambridge, UK</strong><br/>
+&nbsp;<strong>University of Dundee, UK</strong><br/>
+&nbsp;<strong>Sun Yat-sen University, China</strong><br/>
+</p>
+
 
 <div align="center">
   <a href="https://www.sciencedirect.com/science/article/pii/S1361841525000532" target="_blank" rel="external nofollow noopener">
