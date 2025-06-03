@@ -40,7 +40,23 @@
 - **[2024-12-04]** 🎉 *Hypo3D has been accepted to Medical Image Analysis!*
 - **[2024-08-02]** 📝 *M3C2 are now submitted to the Medical Image Analysis.*
 
-## 🔑 Key Takeaways
+## Key Takeaways
+
+- **M3C2** presents a groundbreaking framework for cancer classification by integrating histology and molecular markers.  
+  🧠 **Key Innovation**: The framework employs **multi-scale disentangling modules** to extract both **high-magnification cellular-level** and **low-magnification tissue-level** features, which are then used to predict histology and molecular markers simultaneously.
+
+- The method introduces a **Co-occurrence Probability-based Label-Correlation Graph (CPLC-Graph)** to model the relationships between multiple molecular markers.  
+  This enhancement leads to better classification accuracy by capturing **intrinsic marker co-occurrences** and their impact on cancer classification.
+
+- **Cross-Modal Interaction** is key to the model’s success.  
+  🔄 **Interaction Mechanism**: By using **dynamic confidence constraints** and a **cross-modal gradient modulation strategy**, M3C2 efficiently aligns the prediction tasks for histology and molecular markers, ensuring both tasks complement each other for more accurate results.
+
+- **Validation Across Diverse Datasets**: M3C2 outperforms existing state-of-the-art methods in **glioma classification** and **molecular marker prediction**, showcasing its robustness in **internal** and **external validation datasets**.  
+  📊 **Performance**: The method achieves significant improvements, with **accuracy** and **AUC scores** surpassing previous models by as much as **5.6%** in certain tasks.
+
+- **Clinical Implications**: The ability to predict molecular markers directly from **whole-slide images (WSIs)**, combined with the model's capacity to understand the interactions between histology and molecular data, offers strong potential for **precision oncology**.  
+  🏥 **Impact**: M3C2’s approach aligns with the latest **WHO glioma classification criteria**, making it a promising tool for clinical decision-making and personalized cancer treatment.
+
 
 ![sicl](docs/framework图.png)
 
