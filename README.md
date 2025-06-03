@@ -1,8 +1,7 @@
 # M3C2
-# Joint Modelling Histology and Molecular Markers for Glioma Classification
 
 <h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
-                <img src="docs/static/hypo_icon.png" alt="Icon" style="width:40px; vertical-align:middle; margin-right:10px;">  Hypo3D: Exploring Hypothetical Reasoning in 3D</h1>      
+                <img src="docs/static/hypo_icon.png" alt="Icon" style="width:40px; vertical-align:middle; margin-right:10px;">  Joint Modelling Histology and Molecular Markers for Glioma Classification</h1>      
 <p align='center' style="text-align:center;font-size:1.25em;">
     <a href="https://yebulabula.github.io/" target="_blank" style="text-decoration: none;">Ye Mao</a>,&nbsp;
     <a href="https://scholar.google.com/citations?user=2Y0-0C8AAAAJ&hl=en" target="_blank" style="text-decoration: none;">Weixun Luo</a>,&nbsp;
