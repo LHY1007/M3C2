@@ -13,8 +13,6 @@
 <div align="center">
   <a href="https://www.sciencedirect.com/science/article/pii/S1361841525000532" target="_blank" rel="external nofollow noopener">
   <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv"></a>
-  <a href="https://matchlab-imperial.github.io/Hypo3D/" target="_blank" rel="external nofollow noopener">
-  <img src="https://img.shields.io/badge/Page-Hypo3D-9cf" alt="Project Page"></a>
 </div>
 </p>
 
