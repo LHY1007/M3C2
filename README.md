@@ -1,4 +1,5 @@
-# M3C2
+<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
+                                                      M3C2
 
 <h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
               Joint Modelling Histology and Molecular Markers for Glioma Classification</h1>    
@@ -25,15 +26,22 @@
 
 
 
-
-
-
-
 <div align="center">
   <a href="https://www.sciencedirect.com/science/article/pii/S1361841525000532" target="_blank" rel="external nofollow noopener">
   <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv"></a>
 </div>
 </p>
+
+## 📣 Latest Updates
+
+- **[2025-05-01]** 🎉 *Hypo3D has been accepted to ICML 2025!*
+- **[2025-02-04]** 📝 *Hypo3D paper preprint is now available on [arXiv](https://arxiv.org/abs/your-link).*
+- **[2025-02-09]** 📊 *Hypo3D benchmark has been released.*
+- **[2025-02-09]** 🧪 *Evaluation scripts for multiple vision-language models are now publicly available.*
+
+## 🔑 Key Takeaways
+
+![sicl](docs/framework图.png)
 
 ## About this code
 
