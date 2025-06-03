@@ -4,18 +4,27 @@
               Joint Modelling Histology and Molecular Markers for Glioma Classification</h1>    
               
 <p align='center' style="text-align:center;font-size:1.25em;">
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Xiaofei Wang<span style="font-size: 0.75em; color: green; vertical-align: super;">a</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Hanyu Liu<span style="font-size: 0.75em; color: green; vertical-align: super;">b</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Yupei Zhang<span style="font-size: 0.75em; color: green; vertical-align: super;">a</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Boyang Zhao<span style="font-size: 0.75em; color: green; vertical-align: super;">b</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Hao Duan<span style="font-size: 0.75em; color: green; vertical-align: super;">c</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Yonggao Mou<span style="font-size: 0.75em; color: green; vertical-align: super;">c</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Stephen Price<span style="font-size: 0.75em; color: green; vertical-align: super;">a</span></a>,&nbsp;
-    <a href="https://www.example.com" target="_blank" style="text-decoration: none;">Chao Li<span style="font-size: 0.75em; color: green; vertical-align: super;">a,b,e,f</span></a>&nbsp;<br/>
-&nbsp;<strong>剑桥大学，英国</strong><br/>
-&nbsp;<strong>邓迪大学，英国</strong><br/>
-&nbsp;<strong>中山大学肿瘤中心，中国</strong><br/>
+    Xiaofei Wang<sup>a,1</sup>, 
+    Hanyu Liu<sup>b,1</sup>, 
+    Yupei Zhang<sup>a</sup>, 
+    Boyang Zhao<sup>b</sup>, 
+    Hao Duan<sup>c</sup>, 
+    Wanming Hu<sup>d</sup>,
+    Yonggao Mou<sup>c</sup>, 
+    Stephen Price<sup>a</sup>, 
+    Chao Li<sup>a,b,e,f</sup>&nbsp;<br/>
+    <sup>a</sup> <strong>Department of Clinical Neurosciences, University of Cambridge, UK</strong><br/>
+    <sup>b</sup> <strong>School of Science and Engineering, University of Dundee, UK</strong><br/>
+    <sup>c</sup> <strong>Department of Neurosurgery, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen
+ University Cancer Center, China</strong><br/>
+    <sup>d</sup> <strong>Department of Pathology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University
+ Cancer Center, China</strong><br/>
+    <sup>e</sup> <strong>Department of Applied Mathematics and Theoretical Physics, University of Cambridge, UK</strong>
+    <sup>f</sup> <strong>School of Medicine, University of Dundee, UK</strong>
 </p>
+
+
+
 
 
 
