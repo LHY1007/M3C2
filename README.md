@@ -6,8 +6,8 @@
               Joint Modelling Histology and Molecular Markers for Glioma Classification</h1>    
               
 <p align='center' style="text-align:center;font-size:1.25em;">
-    Xiaofei Wang<sup>a,1</sup>, 
-    Hanyu Liu<sup>b,1</sup>, 
+   <a href="https://github.com/XiaofeiWang2018" target="_blank" style="text-decoration: none;">Xiaofei Wang</a>, <sup>a,1</sup>, 
+    <a href="https://github.com/LHY1007" target="_blank" style="text-decoration: none;">Hanyu Liu</a>,<sup>b,1</sup>, 
     Yupei Zhang<sup>a</sup>, 
     Boyang Zhao<sup>b</sup>, 
     Hao Duan<sup>c</sup>, 
