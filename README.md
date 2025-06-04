@@ -128,6 +128,7 @@ https://www.kaggle.com/models/liuhanyu1007/m3c2_model
 
 ## Contact
 - Hanyu Liu: 2485644@dundee.ac.uk
+- Xiaofei Wang: xw405@cam.ac.uk
 
 Please open an issue or submit a pull request for issues, or contributions.
 
