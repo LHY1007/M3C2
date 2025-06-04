@@ -35,9 +35,9 @@
 
 ## 📣 Latest Updates
 
-- **[2025-03-25]** 📊 *Code have been released!*
-- **[2025-02-04]** 📝 *Hypo3D paper preprint is now available on [Medical Image Analysis]([https://arxiv.org/abs/your-link](https://www.sciencedirect.com/science/article/pii/S1361841525000532)).*
-- **[2024-12-04]** 🎉 *Hypo3D has been accepted to Medical Image Analysis!*
+- **[2025-03-25]** 📊 *M3C2 Code have been released!*
+- **[2025-02-04]** 📝 *M3C2 paper preprint is now available on [Medical Image Analysis]([https://arxiv.org/abs/your-link](https://www.sciencedirect.com/science/article/pii/S1361841525000532)).*
+- **[2024-12-04]** 🎉 *M3C2 has been accepted to Medical Image Analysis!*
 - **[2024-08-02]** 📝 *M3C2 are now submitted to the Medical Image Analysis.*
 
 ## Key Takeaways
